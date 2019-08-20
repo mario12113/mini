@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+      <title>title</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+      
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+      <!--link rel="stylesheet" href="../css/styles.css"-->
+  </head>
+  <!-- Bootstrap code for nav bar - code 1 on https://getbootstrap.com/docs/4.2/components/navbar/ -->
+        <nav class="navbar navbar-expand-lg topnav ">
+        <a class="navbar navbar-brand" href="#"><img src="https://escalla.co.uk/wp-content/uploads/2019/01/escalla-minis-pink.png" height=42 width=110 alt="escalla logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+<!-- Code for main nav items -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+        <a class="nav-link" href="http://localhost/mini/Includes/carasel.php">Home  |<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="http://localhost/mini/login/register.php">Register / login   |</a>
+        </li>
+              <li class="nav-item">
+        <a class="nav-link" href="http://localhost/mini/login/login.php">logout  |</a>
+        </li>
+<!-- Code for dropdown menu -->
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin </a>
+     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="http://localhost/mini/view_videos_admin.php">Update Videos</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="http://localhost/mini/Includes/admin_add_user.php">Update Users</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Update Categories</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="http://localhost/mini/Includes/admin_add_organisation.php">Update Organisations</a>
+            </div>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mini Category</a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="http://localhost/mini/view_videos_user.php">View all videos</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Office 365</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Excel</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Word</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Outlook</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Powerpoint</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">OneDrive</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">OneNote</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Skype For Business</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Windows 10</a>
+     </div>
+           </ul>
+<!-- Code for seach bar -->
+        <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn  mr-sm-2 button" type="submit">Search</button>
+        </form>
+     </div>
+     </nav>
